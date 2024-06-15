@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1 {
+    background-color: coral;
+    text-align: center;
+}
+
+.containar {
+    width: 200px;
+    height: 200px;
+    /* border-radius: 50%; */
+    background-color: blueviolet;
+    color: white;
+    font-size: 30px;
+    
+    border: 7px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    animation-name: prasanth;
+    animation-duration: 5s ;
+    animation-iteration-count: infinite;
+    /* transition: transform 4s; */
+    /* animation-direction: alternate-reverse; */
+    animation-fill-mode: forwards;
+}
+
+.sri {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes prasanth {
+
+    0% {
+    background-color:red; 
+    left:0px;
+    top:0px;
+    /* transform: rotate(180deg) translate(400px, 400px); */
+    }
+
+    25% {
+        background-color:yellow;
+        left:400px;
+        top:0px;
+        }
+
+   50%   {
+     
+        background-color:blue;
+        left:400px;
+        top:400px;
+        }
+
+  75%  {
+    background-color:red;
+    left:0px;
+    top:400px;
+    }
+        
+    
+    100% {
+         
+            background-color:red;
+            left:0px;
+            top:0px;
+            }
+            
+    }
+        
+   
+        
